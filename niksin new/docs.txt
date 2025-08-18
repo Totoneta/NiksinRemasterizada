@@ -1,0 +1,3 @@
+# tarjetasx3frase component 
+    => La rotación con css se cancelaba cuando se movia el mouse ligeramente durante la misma animación. Se soluciono cambiando de css a react y utilizando los atributos onMouseEnter y onAnimationEnd, 
+    agregando y quitando la clase que contiene la animación y retirando la misma clase una vez finalizada.

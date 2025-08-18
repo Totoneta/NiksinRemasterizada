@@ -1,0 +1,17 @@
+.footercontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 12rem;
+    width: 100%;
+    background-color: #000;
+}
+
+.footercontainer>span {
+    color: #fff;
+    font-size: 30px;
+}
+
+.footercontainer>img{
+    height: 10rem;
+}

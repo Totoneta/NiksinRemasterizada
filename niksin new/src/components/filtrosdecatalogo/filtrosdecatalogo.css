@@ -1,0 +1,77 @@
+.filtrosdecatalogocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    font-family: 'Oswald';
+}
+
+/* Lista de filtros */
+.filtrosdecatalogolist {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+/* Filtro */
+.filtrosdecatalogoitem {
+    border: 1px solid #ffe600;
+    border-radius: 10px;
+    height: 3.9rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    width: 25rem;
+    color: #fff;
+    font-size: 18px;
+}
+
+.filtrosdecatalogoitem>input {
+    cursor: pointer;
+}
+
+.filtrosdecatalogoitem>select {
+    border: 1px solid #ffe600;
+    background-color: #000;
+    color: #fff;
+    width: 10rem;
+    height: 2.3rem;
+    padding: .5rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;    
+}
+
+.filtrosdecatalogoitem>select>option {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Botones */
+.filtrosdecatalogofinalbtns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.filtrosdecatalogofinalbtns>button {
+    padding: .5rem 2rem;
+    background-color: #ffe600;
+    color: #000;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Oswald';
+}
+
+.filtrosdecatalogofinalbtns>button:hover {
+    background-color: #a29200;
+}

@@ -1,0 +1,48 @@
+.navbarcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: #000000;
+    padding: .5rem 15rem;
+    font-family: 'Oswald';
+}
+
+.navbarcontainer>a>img {
+    height: 4rem;
+    transition: all .3s;
+}
+
+.navbarcontainer>a>img:hover {
+    scale: 105%;
+}    
+    
+
+
+/* Lista  */
+.navbarcontainerlist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 4rem;
+}
+
+.navbarcontaineritem>a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbarcontaineritem>a:hover {
+    color: #aeaeae;
+}
+
+/* Color categoría */
+#oro {
+    color: #ffe600;
+}
+
+#oro:hover {
+    color: #a29200;
+}

@@ -1,0 +1,50 @@
+.presentacionimgfondocontainer {
+    background-image: url('/presentacionimgfondo/fondojoyasoro.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60dvh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+.presentacionimgfondocontainertext {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 1rem 1rem 13rem;
+    width: 60%;
+}
+
+.presentacionimgfondocontainertext>h2 {
+    font-size: 100px;
+    color: #000;
+}
+
+.presentacionimgfondocontainertext>h2>strong {
+    color: #ffe600;
+}
+
+.presentacionimgfondocontainertext>span {
+    font-size: 24px;
+    color: #fff;
+    width: 80%;
+}
+
+.presentacionimgfondocontainertext>a {
+    padding: 1rem;
+    width: 20rem;
+    text-align: center;
+    background-color: #ffe600;
+    color: #000;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.presentacionimgfondocontainertext>a:hover {
+    background-color: #a29200;
+}

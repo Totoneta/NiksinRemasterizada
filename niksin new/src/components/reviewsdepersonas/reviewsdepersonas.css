@@ -1,0 +1,56 @@
+.reviewsdepersonascontainer {
+    height: 30rem;
+    overflow: hidden;
+    background-color: #3f2f00f6;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.reviewsdepersonassubcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+    width: 50rem;
+}
+
+.reviewsdepersonassubcontaineritem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: max-content;
+    transition: all .5s;
+}
+
+.reviewsdepersonassubcontaineritem>p:hover {
+    scale: 105%;    
+}
+
+.reviewsdepersonassubcontaineritem>img {
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+}
+
+.reviewsdepersonassubcontaineritem>h4 {
+    font-size: 24px;
+    color: #ffe600;
+    font-family: 'Oswald';
+}
+
+.reviewsdepersonassubcontaineritem>p {
+    font-size: 17px;
+    background-color: #ffffff4b;
+    padding: 1rem;
+    color: #fff;
+    
+}
+
+.reviewsdepersonassubcontaineritem>p>strong {
+    color: #ffe600;
+}
