@@ -8,7 +8,6 @@ import Footer from "../components/footer/footer";
 /* Paginas */
 import IndexPage from "../pages/indexpage";
 import CatalogoPage from "../pages/catalogopage/catalogopage";
-import SucursalesPage from "../pages/sucursalespage";
 
 export default function Enrutado() {
 
@@ -20,7 +19,6 @@ export default function Enrutado() {
             <Routes>
                 <Route path="/" Component={IndexPage} />
                 <Route path="/catalogo" Component={CatalogoPage} />
-                <Route path="/sucursales" Component={SucursalesPage} />
                 <Route path="/contacto" Component={IndexPage} />
             </Routes>
 

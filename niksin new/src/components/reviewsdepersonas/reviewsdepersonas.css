@@ -1,20 +1,29 @@
 .reviewsdepersonascontainer {
-    height: 30rem;
     overflow: hidden;
-    background-color: #3f2f00f6;
+    background-color: #000;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     width: 100%;
+    padding: 5rem 3rem;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0px);
 }
 
 .reviewsdepersonassubcontainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     list-style: none;
     color: #fff;
-    width: 50rem;
+    width: 60%;
+    gap: .5rem;
 }
 
 .reviewsdepersonassubcontaineritem {
@@ -25,16 +34,13 @@
     text-align: center;
     height: max-content;
     transition: all .5s;
-}
-
-.reviewsdepersonassubcontaineritem>p:hover {
-    scale: 105%;    
+    gap: .5rem;
 }
 
 .reviewsdepersonassubcontaineritem>img {
     border-radius: 50%;
-    height: 50%;
-    width: 50%;
+    height: 10rem;
+    width: 10rem;
 }
 
 .reviewsdepersonassubcontaineritem>h4 {
@@ -45,10 +51,16 @@
 
 .reviewsdepersonassubcontaineritem>p {
     font-size: 17px;
-    background-color: #ffffff4b;
+    background-color: #fff;
     padding: 1rem;
-    color: #fff;
-    
+    color: #000;
+    border-radius: 10px;
+    transition: all .3s;
+    width: 80%;
+}
+
+.reviewsdepersonassubcontaineritem>p:hover {
+    scale: 105%;    
 }
 
 .reviewsdepersonassubcontaineritem>p>strong {
