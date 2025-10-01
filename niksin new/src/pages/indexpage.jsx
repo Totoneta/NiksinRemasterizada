@@ -1,3 +1,4 @@
+import ContactoForm from "../components/contactoform/contactoform";
 import PresentacionImgFondo from "../components/presentacionimgfondo/presentacionimgfondo";
 import ReviewsDePersonas from "../components/reviewsdepersonas/reviewsdepersonas";
 import ScrollTiempoHorarios from "../components/scrolltiempohorarios/scrolltiempohorarios";
@@ -13,6 +14,7 @@ export default function IndexPage () {
             <ScrollTiempoHorarios />
             <Ubicacion />
             <ReviewsDePersonas />
+            <ContactoForm />
         </section>
     )
 }

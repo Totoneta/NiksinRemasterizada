@@ -20,7 +20,7 @@
     overflow: hidden;
     margin: 0 auto;
     border-radius: 16px;
-    background-color: #121212;
+    background-color: #101010;
     color: #fff;
 }
 
@@ -68,8 +68,8 @@
     border-radius: 50%;
     height: 2.5rem;
     width: 2.5rem;
-    border: 3px solid #c0c0c0;
-    background-color: #000000ab;
+    border: none;
+    background-color: #000000;
     cursor: pointer;
     transition: all .3s
 }

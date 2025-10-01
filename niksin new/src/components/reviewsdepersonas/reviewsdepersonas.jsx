@@ -1,30 +1,12 @@
-import { useEffect, useRef, useState } from 'react';
 import './reviewsdepersonas.css'
+import { Scroll } from './../../hooks/scroll'
 
 export default function ReviewsDePersonas() {
-    const refImg = useRef(null);
-      const [visible, setVisible] = useState(false);
-    
-      useEffect(() => {
-        const observer = new IntersectionObserver(
-          (entries) => {
-            if (entries[0].isIntersecting) {
-              setVisible(true);
-              observer.disconnect();
-            }
-          },
-          { threshold: 0.5 }
-        );
-    
-        if (refImg.current) {
-          observer.observe(refImg.current);
-        }
-    
-        return () => observer.disconnect();
-      }, []);
+
+  const { visible, ref } = Scroll(0.6)
 
     return (
-        <section className={visible ? 'visible reviewsdepersonascontainer' : 'reviewsdepersonascontainer'} ref={refImg}>
+        <section className={visible ? 'visible reviewsdepersonascontainer' : 'reviewsdepersonascontainer'} ref={ref}>
             <h3></h3>
             <ul className="reviewsdepersonassubcontainer">
                 <li className="reviewsdepersonassubcontaineritem">

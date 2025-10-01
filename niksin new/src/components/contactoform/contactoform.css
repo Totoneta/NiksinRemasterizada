@@ -1,0 +1,90 @@
+.formulariocontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+    width: 100%;
+    color: #fff;
+    font-family: 'Oswald';
+    transform: translateY(50px);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+.visible {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.formulariosubcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    border: 1px solid #ffe600;
+    border-radius: 10px;
+    padding: 3rem 0;
+    width: 50rem;
+}
+
+.formulariosubcontainer>h3 {
+    font-size: 50px;
+    padding-bottom: 1rem;
+}
+
+.inputnombrecontainer,
+.inputemailcontainer,
+.inputdescripcioncontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.inputnombrecontainer>label,
+.inputemailcontainer>label,
+.inputdescripcioncontainer>label {
+    font-size: 22px;
+}
+
+.inputnombrecontainer>input,
+.inputemailcontainer>input,
+.inputdescripcioncontainer>textarea {
+    border: 1px solid #ffe600;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    padding: .5rem;
+    border-radius: 5px;
+    width: 50%;
+    font-size: 16px;
+}
+
+.inputsubmitcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.inputsubmitcontainer>span {
+    font-size: 14px;
+}
+
+.inputenviarform {
+    padding: 1rem 1.5rem;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #ffe600;
+    cursor: pointer;
+    transition: all .3s;
+    font-size: 16px;
+}
+
+.inputenviarform:hover {
+    background-color: #171717;
+}

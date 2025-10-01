@@ -1,30 +1,12 @@
-import { useEffect, useRef, useState } from 'react';
 import './scrolltiempohorarios.css'
+import { Scroll } from '../../hooks/scroll'
 
 export default function ScrollTiempoHorarios () {
-const refImg = useRef(null);
-  const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          setVisible(true);
-          observer.disconnect();
-        }
-      },
-      { threshold: 0.5 }
-    );
+  const  { visible, ref } = Scroll(0.6)
 
-    if (refImg.current) {
-      observer.observe(refImg.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
-  
     return(
-        <section className={visible ? "visible scrollcontainer" : "scrollcontainer"} ref={refImg}>
+        <section className={visible ? "visible scrollcontainer" : "scrollcontainer"} ref={ref}>
             <div className="scrollcardcontainer">
                 <img src="./Scroll/tienda.png" alt="Ubicación" />
                 <h3>Sucursales</h3>
