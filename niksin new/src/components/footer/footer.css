@@ -5,6 +5,29 @@
     height: 12rem;
     width: 100%;
     background-color: #000;
+    border-top: 1px dashed #ffe600;
+    margin-top: 3.5rem;
+    
+}
+
+.navbarfootercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+    font-family: 'Oswald';
+}
+
+.navbarfooteritem>a {
+    color: #fff;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.navbarfooteritem>a:hover {
+    color: #ffe600;
 }
 
 .footercontainer>span {
@@ -12,6 +35,6 @@
     font-size: 30px;
 }
 
-.footercontainer>img{
+.footercontainer>a>img {
     height: 10rem;
 }

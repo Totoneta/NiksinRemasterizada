@@ -64,15 +64,17 @@
 
 .filtrosdecatalogofinalbtns>button {
     padding: .5rem 2rem;
-    background-color: #ffe600;
-    color: #000;
-    border: none;
+    background-color: #000;
+    color: #ffe600;
+    border: 1px solid #ffe600;
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Oswald';
+    transition: all .3s;
 }
 
 .filtrosdecatalogofinalbtns>button:hover {
-    background-color: #a29200;
+    background-color: #ffe600;
+    color: #000;
 }
