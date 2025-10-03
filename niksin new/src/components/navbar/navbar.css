@@ -15,11 +15,6 @@
 
 .navbarcontainer>a>img:hover {
     scale: 105%;
-}    
-    
-/* Scroll suave a contacto */
-html {
-    scroll-behavior: smooth;
 }
 
 /* Lista  */
@@ -48,4 +43,30 @@ html {
 
 #oro:hover {
     color: #a29200;
+}
+
+/* Responsive */
+@media (min-width: 350px) and (max-width: 499px) {
+    .navbarcontainer {
+        height: 5rem;
+        padding: .5rem 1rem;
+    }
+
+    .navbarcontainer>a>img {
+        height: 2rem;
+    }
+
+    /* Lista  */
+    .navbarcontainerlist {
+        gap: 1rem;
+    }
+
+    .navbarcontaineritem>a {
+        font-size: 16px;
+    }
+
+    .navbarcontaineritem>a:hover {
+        color: #aeaeae;
+    }
+
 }

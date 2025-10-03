@@ -12,14 +12,27 @@
     transition: opacity 1s ease, transform 1s ease;
 }
 
-.visible {
-    transform: translateY(0px);
-    opacity: 1;
+.ubicacionmaps{
+    width: 100%;
+}
+.logo{
+    width: 90%;
+}
+
+/* Responsive */
+@media (min-width: 350px) and (max-width: 499px) {
+.ubicacioncontainer {
+    width: 100%;
+    gap: .5rem;
+    padding: 2rem 0;
+    margin: 0;
 }
 
 .ubicacionmaps{
     width: 100%;
 }
 .logo{
-    width: 90%;
+    width: 5rem;
+}
+
 }

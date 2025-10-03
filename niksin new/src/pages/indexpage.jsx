@@ -5,6 +5,8 @@ import ScrollTiempoHorarios from "../components/scrolltiempohorarios/scrolltiemp
 import Tarjetasx3Frase from "../components/tarjetasx3frase/tarjetasx3frase";
 import Ubicacion from "../components/ubicacion/ubicacion";
 
+import './indexpage.css'
+
 export default function IndexPage () {
 
     return (

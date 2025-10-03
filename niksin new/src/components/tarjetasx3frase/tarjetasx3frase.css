@@ -84,3 +84,49 @@
     transform: rotateX(360deg) scale(1.05);
   }
 }
+
+/* Responsive */
+@media (min-width: 350px) and (max-width: 499px) {
+  .tarjetasx3frasecontainer {
+    gap: .3rem;
+    padding: 3rem 0;
+}
+
+.tarjetasx3frasecontainerimg {
+    gap: .5rem;
+}
+
+.tarjetasx3frasecontainerimg>div>img {
+    height: 9rem;
+}
+
+.tarjetasx3frasecontainerimglittle {
+    gap: .5rem;
+}
+
+.tarjetasx3frasecontainerimglittle>div {
+    height: auto;
+}
+
+.tarjetasx3frasecontainerimglittle>div>img {
+    height: 4.1rem;
+}
+
+
+.tarjetasx3frasecontainertexto {
+    gap: .5rem;
+    width: max-content;
+}
+
+.tarjetasx3frasecontainertexto>h4 {
+    font-size: 14px;
+}
+
+.tarjetasx3frasecontainertexto>h4>strong {
+    font-size: 14px;
+}
+
+.tarjetasx3frasecontainertexto>span {
+    font-size: 12px;
+}
+}
