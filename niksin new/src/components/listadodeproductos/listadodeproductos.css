@@ -135,3 +135,76 @@
     font-weight: bold;
     color: #dab309;
 }
+
+/* Responsive */
+@media (min-width: 350px) and (max-width: 499px) {
+
+    /* Container */
+    .listadodeproductoscontainerlist {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        gap: .5rem;
+        padding: 2rem .3rem;
+    }
+
+    /* Producto item */
+    .listadodeproductoscontaineritem {
+        width: 100%;
+        height: 18rem;
+    }
+
+    /* Carrusel de imgs, productos */
+    .productocarruselcontainer {
+        height: max-content;
+    }
+
+    .productocarruselcontainerlist {
+        width: 100%;
+    }
+
+    .productocarruselcontainerlist>img {
+        height: 8rem;
+        width: 100%;
+    }
+
+    /* Botones */
+
+    .productocarruselcontainerbotonesizq,
+    .productocarruselcontainerbotonesder {
+        bottom: 7rem;
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+
+    .productocarruselcontainerbotonesizq {
+        right: .5rem;
+    }
+
+    .productocarruselcontainerbotonesder {
+        left: .5rem;
+    }
+
+    /* Texto */
+    .productocarruselcontainerbotonvermasitem {
+        gap: .8rem;
+        padding: 1rem 2rem;
+    }
+
+    .productocarruselcontainerbotonvermasitem>h4 {
+        font-size: 20px;
+    }
+
+    .productocarruselcontainerbotonvermasitem>span {
+        font-size: 14px;
+    }
+
+    .productocarruselcontainerbotonvermasitemtexto {
+        font-size: 12px;
+        padding: .5rem;
+    }
+
+    .productocarruselcontainerbotonvermasitemtexto>p {
+        font-size: 14px;
+    }
+
+}

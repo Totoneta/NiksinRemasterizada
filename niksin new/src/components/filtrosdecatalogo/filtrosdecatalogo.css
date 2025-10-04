@@ -78,3 +78,41 @@
     background-color: #dab309;
     color: #000;
 }
+
+/* Responsive */
+@media (min-width: 350px) and (max-width: 499px) {
+.filtrosdecatalogocontainer {
+    padding: .5rem;
+    gap: 1rem;
+}
+
+/* Lista de filtros */
+.filtrosdecatalogolist {
+    flex-direction: column;
+    gap: .5rem;
+    padding: 0;
+}
+
+/* Filtro */
+.filtrosdecatalogoitem {
+    height: 3rem;
+    padding: 1rem .5rem;
+    width: 18rem;
+    font-size: 12px;
+}
+
+.filtrosdecatalogoitem>select {
+    width: 9rem;
+    height: 2rem;   
+}
+
+/* Botones */
+.filtrosdecatalogofinalbtns {
+    gap: .5rem;
+    width: 18rem;
+}
+
+.filtrosdecatalogofinalbtns>button {
+    font-size: 14px;
+}
+}
