@@ -3,7 +3,8 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 60rem;
+    background-attachment: fixed;
+    height: 50rem;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -53,7 +54,7 @@
 @media (min-width: 350px) and (max-width: 499px) {
 
     .presentacionimgfondocontainer {
-        height: 60dvh;
+        height: 60vh;
     }
 
     .presentacionimgfondocontainertext {
