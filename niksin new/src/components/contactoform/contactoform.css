@@ -18,7 +18,7 @@
     align-items: center;
     flex-direction: column;
     gap: 3rem;
-    border: 1px solid #ffe600;
+    border: 1px solid #dab309;
     border-radius: 10px;
     padding: 3rem 0;
     width: 50rem;
@@ -47,7 +47,7 @@
 .inputnombrecontainer>input,
 .inputemailcontainer>input,
 .inputdescripcioncontainer>textarea {
-    border: 1px solid #ffe600;
+    border: 1px solid #dab309;
     outline: none;
     background-color: #000;
     color: #fff;
@@ -74,7 +74,7 @@
     background-color: #000;
     border-radius: 5px;
     color: #fff;
-    border: 1px solid #ffe600;
+    border: 1px solid #dab309;
     cursor: pointer;
     transition: all .3s;
     font-size: 16px;

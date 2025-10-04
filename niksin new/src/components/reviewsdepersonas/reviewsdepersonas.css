@@ -40,7 +40,7 @@
 
 .reviewsdepersonassubcontaineritem>h4 {
     font-size: 24px;
-    color: #ffe600;
+    color: #dab309;
     font-family: 'Oswald';
 }
 
@@ -59,7 +59,7 @@
 }
 
 .reviewsdepersonassubcontaineritem>p>strong {
-    color: #ffe600;
+    color: #dab309;
 }
 
 @media (min-width: 350px) and (max-width: 499px) {

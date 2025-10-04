@@ -5,7 +5,7 @@
     height: 12rem;
     width: 100%;
     background-color: #000;
-    border-top: 1px dashed #ffe600;
+    border-top: 1px dashed #dab309;
     margin-top: 3.5rem;
 
 }
@@ -27,7 +27,7 @@
 }
 
 .navbarfooteritem>a:hover {
-    color: #ffe600;
+    color: #dab309;
 }
 
 .footercontainer>span {
