@@ -55,9 +55,38 @@
 }
 
 .reviewsdepersonassubcontaineritem>p:hover {
-    scale: 105%;    
+    scale: 105%;
 }
 
 .reviewsdepersonassubcontaineritem>p>strong {
     color: #ffe600;
+}
+
+@media (min-width: 350px) and (max-width: 499px) {
+    .reviewsdepersonascontainer {
+        width: 100%;
+        padding: 3rem 0;
+    }
+
+    .reviewsdepersonassubcontainer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 95%;
+        gap: 1rem;
+    }
+
+    .reviewsdepersonassubcontaineritem>img {
+        height: 5rem;
+        width: 5rem;
+    }
+
+    .reviewsdepersonassubcontaineritem>h4 {
+        font-size: 16px;
+    }
+
+    .reviewsdepersonassubcontaineritem>p {
+        font-size: 11px;
+        padding: 1rem;
+        width: 95%;
+    }
 }

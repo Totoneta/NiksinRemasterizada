@@ -7,7 +7,7 @@
     background-color: #000;
     border-top: 1px dashed #ffe600;
     margin-top: 3.5rem;
-    
+
 }
 
 .navbarfootercontainer {
@@ -37,4 +37,27 @@
 
 .footercontainer>a>img {
     height: 10rem;
+}
+
+/* Responsive */
+@media (min-width: 350px) and (max-width: 499px) {
+    .footercontainer {
+        margin-top: 3rem;
+    }
+
+    .navbarfootercontainer {
+        gap: .3rem;
+    }
+
+    .navbarfooteritem>a {
+        font-size: 12px;
+    }
+
+    .footercontainer>span {
+        font-size: 16px;
+    }
+
+    .footercontainer>a>img {
+        height: 3.5rem;
+    }
 }

@@ -83,3 +83,46 @@
 .inputenviarform:hover {
     background-color: #171717;
 }
+
+/* Responsive */
+@media (min-width: 350px) and (max-width: 499px) {
+
+    .formulariosubcontainer {
+        gap: 1.5rem;
+        padding: 2rem 0;
+        width: 97%;
+    }
+
+    .formulariosubcontainer>h3 {
+        font-size: 30px;
+    }
+
+    .inputnombrecontainer,
+    .inputemailcontainer,
+    .inputdescripcioncontainer {
+        width: 90%;
+    }
+
+    .inputnombrecontainer>label,
+    .inputemailcontainer>label,
+    .inputdescripcioncontainer>label {
+        font-size: 16px;
+    }
+
+    .inputnombrecontainer>input,
+    .inputemailcontainer>input,
+    .inputdescripcioncontainer>textarea {
+        padding: .3rem .5rem;
+        width: 60%;
+        font-size: 14px;
+    }
+
+    .inputsubmitcontainer>span {
+        font-size: 10px;
+    }
+
+    .inputenviarform {
+        padding: .8rem 1.1rem;
+        font-size: 14px;
+    }
+}
